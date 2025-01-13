@@ -97,5 +97,5 @@ If you find this repository helpful, please consider citing: </br>
 ```
 
 ## Acknowledgement
-Thanks to [Vim](https://github.com/hustvl/Vim), [VMamba](https://github.com/MzeroMiko/VMamba), [VM-UNet](https://github.com/JCruan519/VM-UNet),[[UltraLight-VM-UNet]](https://github.com/wurenkai/UltraLight-VM-UNet) and [EMCAD](https://github.com/SLDGroup/EMCAD) for their outstanding work.
+Thanks to [Vim](https://github.com/hustvl/Vim), [VMamba](https://github.com/MzeroMiko/VMamba), [VM-UNet](https://github.com/JCruan519/VM-UNet),[UltraLight-VM-UNet](https://github.com/wurenkai/UltraLight-VM-UNet) and [EMCAD](https://github.com/SLDGroup/EMCAD) for their outstanding work.
 
