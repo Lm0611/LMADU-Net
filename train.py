@@ -7,7 +7,7 @@ from torch.cuda.amp import autocast, GradScaler
 from torch.utils.data import DataLoader
 import datetime
 from loader import *
-from models.networks import MADUNet
+from models.networks import LMADUNet
 from copyengine import *
 import sys
 from utils import *
@@ -86,7 +86,7 @@ def main(config):
 
     print('#----------Prepareing Models----------#')
     model_cfg = config.model_config
-    model = MADUNet(**model_cfg) 
+    model = LMADUNet(**model_cfg) 
     model = model.cuda()
 
 
