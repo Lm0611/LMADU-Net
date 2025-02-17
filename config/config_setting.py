@@ -7,7 +7,7 @@ class setting_config:
     """
     the config of training setting.
     """
-    network = 'MADUNet'  
+    network = 'LMADUNet'  
     model_config = {
         'num_classes': 1,
         'kernel_sizes': [1, 3, 5], 
