@@ -1,5 +1,5 @@
 <div align="center">
-<h1>MADU-Net</h1>
+<h1>LMADU-Net</h1>
 <h3>Multi-Scale Deformable Aggregation U-Net with Mamba Integration for Skin Lesion Segmentation</h3>
 </div>
 
@@ -72,14 +72,14 @@ pip install pillow
 2. In the 'Prepare_your_dataset.py' file, change the number of training sets, validation sets and test sets you want.</br>
 3. Run 'Prepare_your_dataset.py'. </br>
 
-**2. Train the MADU-Net.**
+**2. Train the LMADU-Net.**
 
 ```
 python train.py
 ```
 - After trianing, you could obtain the outputs in './results/' </br>
 
-**3. Test the MADU-Net.**  
+**3. Test the LMADU-Net.**  
 First, in the test.py file, you should change the address of the checkpoint in 'resume_model'.
 
 ```
