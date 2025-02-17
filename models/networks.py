@@ -6,9 +6,9 @@ from models.Encoder import Encoder
 from models.Decoder import Decoder
 
 
-class MADUNet(nn.Module):
+class LMADUNet(nn.Module):
     def __init__(self, num_classes=1, kernel_sizes=[1,3,5], expansion_factor=2, dw_parallel=True, add=True, dcag_ks=3, activation='relu', encoder='Encoder', pretrain=True):
-        super(MADUNet, self).__init__()
+        super(LMADUNet, self).__init__()
 
         # conv block to convert single channel to 3 channels
         self.conv = nn.Sequential(
