@@ -91,7 +91,7 @@ python test.py
 If you find this repository helpful, please consider citing: </br>
 ```
 @article{,
-  title={MDAU-Net: Multi-Scale Deformable Aggregation U-Net with Mamba Integration for Skin Lesion Segmentation},
+  title={LMDAU-Net: an Effective Lightweight Multi-scale DeformationAggregation U-Net for Skin Lesion Segmentation},
   author={Jun Hu and Ming Liu and Wenbo Lu and Pengxiang Su},
   journal={},
   year={2025}
