@@ -15,6 +15,7 @@ Automatic skin lesion segmentation is a pivotal problem in the medical domain an
 
 - ISIC_2016 DataSet 
 <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2016.png" width="60%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2016view.png" width="60%" />
 
 - ISIC_2017 DataSet
 <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2017.png" width="60%" />
