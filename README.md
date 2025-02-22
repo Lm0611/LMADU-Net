@@ -3,7 +3,7 @@
 <h3>Multi-Scale Deformable Aggregation U-Net with Mamba Integration for Skin Lesion Segmentation</h3>
 </div>
 
-![network](https://github.com/JiarunLiu/Swin-UMamba/blob/main/assets/swin-umamba.png)
+![network](https://github.com/Lm0611/LMADU-Net/blob/main/asset/LMADU-Net.png)
 
 
 ### Abstract
