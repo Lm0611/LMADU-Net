@@ -9,7 +9,19 @@
 ### Abstract
 Automatic skin lesion segmentation is a pivotal problem in the medical domain and an indispensable component in the computer-aided diagnosis program. Most convolutional neural network-based segmentation algorithms have demonstrated promising performance due to their ability to encode detail and semantic features efficiently. However, they fail to capture the long-range contextual information at the global level. Therefore, researchers employ transformer architecture to address this issue. Unfortunately, these methods fail to learn sufficient pixel information at the local level. Motivated by this, some researchers attempt to design a hybrid architecture based on CNN and Transformer. However, the large number of parameters and high computational cost make them challenging to train and use. To alleviate these problems, we propose an effective Lightweight Multi-scale Deformation Aggregation U-Net (LMDAU-Net), which consists of a Lightweight Local-global Learning Module (LLM) and an Adaptive Interactive Fusion Module (AIF). Specifically, we utilize two branches of LLM to efficiently learn local fine-grained and global coarse-grained features that assist the model in capturing the complementary feature representations. Moreover, we employ the AIF to selectively learn semantic and detail features at different scales, which can dynamically explore variable feature cues. Extensive experiments on four skin benchmarks, including ISIC2016, ISIC 2017, ISIC2018, and PH2, demonstrate that LMDAU-Net achieves state-of-the-art performance in both qualitative and quantitative aspects.
 
+## Main Results
 
+- ISIC_2016 DataSet 
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2016.png" width="50%" />
+
+- ISIC_2017 DataSet
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2017.png" width="50%" />
+
+- ISIC_2018 DataSet
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2018.png" width="50%" />
+
+- PH2 DataSet
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/PH2.png" width="50%" />
 
 **0. Main Environments.** </br>
 The environment installation procedure can be followed by [VM-UNet](https://github.com/JCruan519/VM-UNet), or by following the steps below (python=3.8):</br>
