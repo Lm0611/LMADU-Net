@@ -1,6 +1,6 @@
 <div align="center">
 <h1>LMADU-Net</h1>
-<h3>Multi-Scale Deformable Aggregation U-Net with Mamba Integration for Skin Lesion Segmentation</h3>
+<h3>an Effective Lightweight Multi-scale Deformation Aggregation U-Net for Skin Lesion Segmentation</h3>
 </div>
 
 <p align="center">
