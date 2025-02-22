@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/LMADU-Net.png" alt="LMADU-Net" width="75%" />
+  <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/LMADU-Net.png" alt="LMADU-Net" width="85%" />
 </p>
 
 
@@ -14,16 +14,16 @@ Automatic skin lesion segmentation is a pivotal problem in the medical domain an
 ## Main Results
 
 - ISIC_2016 DataSet 
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2016.png" width="50%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2016.png" width="60%" />
 
 - ISIC_2017 DataSet
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2017.png" width="50%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2017.png" width="60%" />
 
 - ISIC_2018 DataSet
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2018.png" width="50%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2018.png" width="60%" />
 
 - PH2 DataSet
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/PH2.png" width="50%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/PH2.png" width="60%" />
 
 **0. Main Environments.** </br>
 The environment installation procedure can be followed by [VM-UNet](https://github.com/JCruan519/VM-UNet), or by following the steps below (python=3.8):</br>
