@@ -438,8 +438,9 @@ class SS2D(nn.Module):
         if self.dropout is not None:
             out = self.dropout(out)
         return out
-
-class PVMLayerWithSS2D(nn.Module):
+        
+#Multi-branch Extraction Block
+class MEB(nn.Module):
     def __init__(self, input_output_dim, d_state=16, d_conv=3, expand=2):
         super().__init__()
         self.input_output_dim = input_output_dim
@@ -509,7 +510,8 @@ def channel_shuffle(x: Tensor, groups: int) -> Tensor:
 
     return x
 
-class SS_Conv_SSM_with_PVMLayer(nn.Module):
+#Lightweight Local-global Learning Module
+class LLM(nn.Module):
     def __init__(
         self,
         input_dim: int,
@@ -525,7 +527,7 @@ class SS_Conv_SSM_with_PVMLayer(nn.Module):
         self.output_dim = output_dim
         self.norm = nn.LayerNorm(input_dim)
         self.ln_1 = norm_layer(input_dim//2)
-        self.self_attention = PVMLayerWithSS2D(
+        self.self_attention = MEB(
             input_output_dim=input_dim//2,  #是否除以2，下的conv33卷积也
             d_state=d_state, 
             d_conv=3, 
@@ -590,7 +592,7 @@ class VSSLayer(nn.Module):
         self.use_checkpoint = use_checkpoint
 
         self.blocks = nn.ModuleList([
-            SS_Conv_SSM_with_PVMLayer(
+            LLM(
                 input_dim=dim,
                 output_dim=dim,
                 drop_path=drop_path[i] if isinstance(drop_path, list) else drop_path,
