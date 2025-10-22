@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/LMADU-Net.png" alt="LMADU-Net" width="85%" />
+  <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/Overview.jpg" alt="LMADU-Net" width="85%" />
 </p>
 
 
