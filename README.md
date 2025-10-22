@@ -14,20 +14,20 @@ Automatic skin lesion segmentation is a pivotal problem in the medical domain an
 ## Main Results
 
 - ISIC_2016 DataSet 
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2016_table.png" width="60%" />
 <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2016.jpg" width="60%" />
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2016view.png" width="60%" />
 
 - ISIC_2017 DataSet
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2016.jpg" width="60%" />
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2017view.png" width="60%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2017_table.png" width="60%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2017.jpg" width="60%" />
 
 - ISIC_2018 DataSet
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2016.jpg" width="60%" />
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/2018view.png" width="60%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2018_table.png" width="60%" />
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/ISIC2018.jpg" width="60%" />
 
 - PH2 DataSet
+<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/PH2_table.png" width="60%" />
 <img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/PH2.jpg" width="60%" />
-<img src="https://github.com/Lm0611/LMADU-Net/blob/main/asset/PH2view.png" width="60%" />
 
 **0. Main Environments.** </br>
 The environment installation procedure can be followed by [VM-UNet](https://github.com/JCruan519/VM-UNet), or by following the steps below (python=3.8):</br>
